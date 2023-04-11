@@ -31,6 +31,12 @@ services:
       DAGSTER_POSTGRES_PASSWORD: "postgres_password"
       DAGSTER_POSTGRES_DB: "postgres_db"
       DAGSTER_CURRENT_IMAGE: "user_code_image"
+      ENV: "LOCAL"
+      DW_USER: "dw_user"
+      DW_PASSWORD: "dw_password"
+      DW_HOST: "localhost"
+      DW_PORT: "5432"
+      HUBSPORT_TOKEN: "Token"
     networks:
       - dagster_network
 
