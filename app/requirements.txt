@@ -6,3 +6,5 @@ dagster-aws
 pandas
 wordcloud
 matplotlib
+psycopg2-binary
+sqlalchemy
