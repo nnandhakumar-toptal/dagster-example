@@ -1,7 +1,7 @@
 import os
 
 from .plural_dw_io_manager import plural_dw_io_manager
-
+from .plural_dw_io_manager import plural_dw_io_manager
 
 SHARED_DW_CONF = {
     "host": os.getenv("DW_HOST", ""),
